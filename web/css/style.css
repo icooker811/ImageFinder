@@ -1,0 +1,229 @@
+* { 
+	margin: 0; padding: 0; 
+}
+
+body { 
+	font-family: Helvetica, Arial, Sans-Serif;
+	background: #2c2c2c url(../images/bg.jpg) top center no-repeat; 
+}
+
+#page-wrap { 
+	width: 960px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+.Button
+{
+position: relative;
+cursor: pointer;
+display: inline-block;
+border: 1px solid #d5d5d5;
+text-decoration: none;
+font: 16px Arial;
+font-weight: bold;
+text-align: center;
+text-shadow:0px 0px 0px #444444;
+background: #ffffff;
+padding: 10px 16px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+color: #c13737;
+-moz-box-shadow:inset 0px 0px 0px;
+-webkit-box-shadow:inset 0px 0px 0px;
+box-shadow:inset 0px 0px 0px,
+0 3px 0 #aeaeae,
+0 5px 0 #c13737,
+0 8px 0 #aeaeae,
+0 10px 6px rgba(0,0,0, .60);
+}
+
+.Button:hover {
+background: #eeeeee;
+color: #eb5e7f;
+-moz-box-shadow:inset 0px 0px 0px;
+-webkit-box-shadow:inset 0px 0px 0px;
+box-shadow:inset 0px 0px 0px ,
+0 3px 0 rgba(235,94,127, .30),
+0 3px 0 #aeaeae,
+0 5px 5px #eb5e7f,
+0 5px 0 #eb5e7f,
+0 8px 0 rgba(235,94,127, .15),
+0 8px 0 #aeaeae,
+0 10px 6px rgba(0,0,0, .60);
+}
+
+.Button:active {
+transform: translateY(2px);
+-moz-transform: translateY(2px);
+-ms-transform: translateY(2px);
+-o-transform: translateY(2px);
+-webkit-transform: translateY(2px);
+-moz-box-shadow:inset 0px 0px 0px;
+-webkit-box-shadow:inset 0px 0px 0px;
+box-shadow:inset 0px 0px 0px,
+0 3px 0 rgba(235,94,127, .30),
+0 3px 0 #eeeeee,
+0 5px 5px rgba(#eb5e7f, .65),
+0 5px 0 #eb5e7f,
+0 6px 0 rgba(235,94,127, .15),
+0 6px 0 #eeeeee,
+0 6px 6px rgba(0,0,0, .65);
+}
+
+.Button2 {
+display: inline-block;
+border: 0px solid #ffffff;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: 16px Arial;
+font-weight: bold;
+padding: 10px 16px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+text-shadow:0px 0px 0px #444444;
+-moz-box-shadow: 0px 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px 0px #444444;
+color: #ffffff;
+background: #c7e9ff;
+}
+.Button2:hover {
+background: #eeeeee;
+text-decoration: none;
+color: #ffffff;
+}
+.Button2:active {
+color: #ffffff;
+position: relative;
+top: 1px;
+}
+
+#content {
+	width: 800px;
+        margin-left: -90px;
+	/*margin: 40px auto;*/
+	padding: 0 60px 30px 60px;
+	border: solid 1px #cbcbcb;
+	background: #fafafa;
+	-moz-box-shadow: 0px 0px 10px #cbcbcb;
+	-webkit-box-shadow: 0px 0px 10px #cbcbcb;
+}
+
+#in-content {
+        margin-left: 80px;
+        margin-right: 80px;
+}
+
+
+.hidden {
+	position:absolute;
+	left:-999em;
+	top:-999em;
+	width:1%;
+}
+
+h1 { 
+	font-size: 48px;
+	letter-spacing: -1px;
+	color: white;
+	margin: 0 0 15px 0; 
+	}
+	h1 span	{ 
+		color: #1f8cc5; 
+}
+
+h2 { 
+	font-size: 24px; 
+        color: white;
+	letter-spacing: -1px; 
+	margin: 0 0 5px 0; 
+}
+
+h3 {
+        font-size: 20px; 
+        color: white;
+	letter-spacing: -1px; 
+	margin: 0 0 5px 0; 
+    
+}
+
+p, label { 
+	font-family: Georgia, serif;
+        color: white;
+	font-size: 18px; 
+	margin: 4px 0;
+}	
+
+
+fieldset {
+	width: 280px; 
+	padding: 15px; 
+	float: left; 
+	border: none;
+	margin: 0 10px 0 0; 
+	}
+	fieldset#step_1	{ 
+	background: #b2e7ca; 
+	}
+	fieldset#step_2	{ 
+		background: #b2d9e7; 
+	}
+	fieldset#step_3 { 
+		background: #e7c7b2; 
+	}
+
+legend { 
+	font-weight: bold; 
+	font-size: 20px; 
+	background: white;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	padding: 5px 10px; 
+	letter-spacing: -1px;
+}
+									  	  
+option { 
+	padding: 0 5px; 
+}
+
+.name_wrap { 
+	margin: 5px 0; 
+	}
+	.name_wrap label { 
+		font-size: 12px; 
+		display: block; 
+		width: 102px; 
+		float: left; 
+	}
+        
+  .name2_wrap { 
+	margin: 5px 0; 
+	}
+	.name2_wrap label { 
+		font-size: 12px; 
+		display: block; 
+		width: 102px; 
+		float: left; 
+	} 
+	
+.push {
+	margin: 20px 0 0 0; 
+}
+
+#special_accommodations_wrap,
+#company_name_wrap { 
+	margin: 8px 0 0 0; 
+}
+
+#company_name_wrap label,
+#special_accommodations_wrap label { 
+	font-size: 12px; 
+}
+
+#special_accommodations_wrap textarea { 
+	width: 100%; height: 100px; 
+}
