@@ -2,7 +2,10 @@
 
 search locations by using image.
 
-Configuration
+===============================
+Config
 - install tomcat
 - install mysql
-
+  - import mysql "photo.sql"
+  - create map, polygon 
+  - import images into server
