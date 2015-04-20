@@ -1,6 +1,7 @@
 # ImageFinder
 
 search locations by using image.
+use RGB color histogram and SURF (Speeded Up Robust Features) for matching image
 
 ===============================
 Config
